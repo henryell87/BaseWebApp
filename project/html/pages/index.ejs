@@ -7,17 +7,17 @@
   <!-- the classes 'page-header' and 'btn btn-dark' create bootstrap components.  -->
   <!-- Check out more components here: http://getbootstrap.com/components/ -->
   <div class="page-header">
-
-  
-    <h1>Henry's Web App</h1>
+    <h1>Database Web App</h1>
   </div>
 
-  <p>Click on the button for a surprise.</p>
+  <button onClick="handelSignIn()">Login</button>
+  <form onSubmit= "handelMessageFormSubmit()"action= "#">
+    <input id="post-title"><br>
+    Body:<br>
+    <textarea id="post post-title"></textarea>
+    <button>Submit</button>
 
-  <button onClick="showPicture()" class="btn btn-dark">Click me</button>
-
-  <div id="image"></div>
-  
+  </form>
 </body>
 
 </html>
